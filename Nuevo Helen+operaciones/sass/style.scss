@@ -1,0 +1,64 @@
+* { /* index. htlm*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+$alto: 10px;
+$ancho: 5px;
+$distancia1: 5px;
+
+.header_menu {
+    background-color: #D6D2C4;
+    height: $alto*10;
+    border-bottom: 2px solid;
+    padding-top: 10px;
+}
+
+div {
+    &.header__imagen {
+        float: left;
+        margin: 10px;
+        height: 66px;
+        width: auto;
+    }
+}
+
+     
+
+.header__navegacion ul {
+            display: flex;
+            float: right;
+            padding-top: 40px;
+            li {
+                text-decoration: none;
+                margin: 0 20px;
+            }
+            a {
+                color: black;
+                font-family: 'Poppins', sans-serif;
+            }
+}
+
+.imagenprincipal {
+    padding-top: 0px;
+}
+
+.card-deck {
+    padding-top: $distancia1*20;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.piedepagina {
+    padding: 16px;
+    //font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #BA135D;
+    height: $alto*5;
+}
